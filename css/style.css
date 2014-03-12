@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'always_in_my_heartregular';
+    src: url('font/always_in_my_heart-webfont.eot');
+    src: url('font/always_in_my_heart-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/always_in_my_heart-webfont.woff') format('woff'),
+         url('font/always_in_my_heart-webfont.ttf') format('truetype'),
+         url('font/always_in_my_heart-webfont.svg#always_in_my_heartregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+html,
+body{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-size: 0.8em;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.ui-content{
+	overflow-x: visible!important; 
+}
+
+#home 				{	background-size: auto 100%; background-image: url(../images/fondo.png)!important; background-position: center; background-repeat: no-repeat!important; }
+
+#categoriaRecetas 	{ 	background-size: auto 100%; background-image: url(../images/fondo2.png)!important; background-position: center; background-repeat: no-repeat!important; }
+#listado, #favoritos { 	background-size: auto 100%; background-image: url(../images/fondo3.jpg)!important; background-position: center; background-repeat: no-repeat!important; }
+
+.boton {	background-color: #EC1C24; padding: 12px 21px 12px 21px; color: white!important; text-shadow:none;  margin: 10px;}
+
+.ui-bar-a {	background-image: url(../images/table.png)!important;}
+.ui-btn-up-a, .ui-btn-hover-a { background-color: #EC1C24!important; background-image: none!important;}
+
+#botonRed{	border: 0; border-radius: 0; width: 14%; height: 97%;
+			background-image: url(../images/backButton.png)!important;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: 75%;
+		margin-top: -3px;
+margin-left: -5px;
+}
+
+.ui-content {
+	background: none!important;
+}
+
+ul{
+	border: 1px solid #ccc;
+	
+}
+li{
+	border: 1px solid #ccc;
+	border-top: none;
+	background-image: url(../images/flecha.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 5%;
+	padding: 13px;
+	list-style: none;
+	list-style-type: none;
+}
+li a{ display: block; color: #000!important;}
+li:last-child{
+	border-bottom: none;
+}
+
+#menuBotones{
+	position: absolute;
+	bottom: 3%;
+	left: 40%;
+	width: 20%;
+}
+#menuBotones a{
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
+
+#item-menu{
+width: 40%;
+height: 40%;
+float: left;
+text-align: center;
+margin: 11px;
+}
+
+
+.categoriaGroup{
+	position: absolute;
+bottom: 2%;
+width: 40%;
+height: 36%;
+margin-left: 22.5%;
+}
+
+.bebida{ background-image: url(../images/bebida.png); background-repeat: no-repeat; background-size: 100% 100%; width: 100%;
+height: 100%;
+display: block;}
+.ensalada{ background-image: url(../images/ensalada.png); background-repeat: no-repeat; background-size: 100% 100%; width: 100%;
+height: 100%;
+display: block;}
+.snack{ background-image: url(../images/snack.png); background-repeat: no-repeat; background-size: 100% 100%; width: 100%;
+height: 100%;
+display: block;}
+.postre{ background-image: url(../images/postre.png); background-repeat: no-repeat; background-size: 100% 100%; width: 100%;
+height: 100%;
+display: block;}
+.contenidoReceta h5{ background-color: #757679; color:black; padding: 7px; text-shadow: none;
+	margin-right: 10px; margin: 0; }
+.contenidoReceta img{
+	width: 100%;
+}
+.textoM{
+color: red!important;
+}
+.contenidoReceta .info{
+	text-align: justify;
+	text-shadow: none!important;
+
+
+}
+
+.ui-header .ui-title, .ui-footer .ui-title {
+	/*font-size: 10px!important;*/
+}
+.subtitle{  text-align: center;}
+.subtitle img{
+	width: 100%;
+}
+#link{
+	position: absolute;
+top: 0;
+left: 0;
+}
+#link img{
+	width: 80%;
+}
+.mini-categorias{
+	width: 400px;
+
+}
+
+.categorias{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.categorias img, .categorias span{
+	display: block;
+	margin: 0 auto;
+	color: red;
+	
+}
+.rate{
+	background-image: url(../images/star.png);
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 29px;
+	background-position: 0 0;
+	display: block;
+	float: right;
+	margin-top: -25px;
+	
+}
+#cat-receta{
+	background-color: #757679;
+	color: black;
+	text-shadow: none;
+	padding: 2px 4px;
+	text-transform: capitalize;
+}
+
+#receta h3{
+	font-family: 'always_in_my_heartregular';
+	font-size: 4em;
+	text-align: center;
+}
+
+.in{
+	font-size: 1.4em;
+	text-align: justify;
+	overflow-x: visible;
+}
+
+.compartir{
+	text-align: center;
+}
+
+.compartir img{
+	width: 30%;
+}
