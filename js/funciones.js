@@ -28,7 +28,7 @@ function thumbCategory(){
             id = value.id;  
             imagen = value.imagen;
             //alert(id);
-            document.getElementById('thumb').innerHTML  += '<div class="categorias" onclick="listCategory('+id+')"><img src='+url+imagen+' /><span>'+nombre+'</span></div>';
+            document.getElementById('thumb').innerHTML  += '<div class="categorias" onclick="listCategory('+id+')"><img src='+bigImage+imagen+' /><span>'+nombre+'</span></div>';
 
           });
         }      
